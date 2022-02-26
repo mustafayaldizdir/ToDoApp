@@ -1,24 +1,24 @@
-const li = document.createElement('li');
+// const li = document.createElement('li');
 
-li.className = 'list-group-item list-group-item-secondary'; 
+// li.className = 'list-group-item list-group-item-secondary'; 
 
-li.setAttribute('title','new item');
-li.setAttribute('data-id','5');
+// li.setAttribute('title','new item');
+// li.setAttribute('data-id','5');
 
-//text node
+// //text node
 
-const text = document.createTextNode('new item');
+// const text = document.createTextNode('new item');
 
-li.appendChild(text);
+// li.appendChild(text);
 
-const a = document.createElement('a');
-a.setAttribute('href','#');
+// const a = document.createElement('a');
+// a.setAttribute('href','#');
 
-a.className = 'delete-item float-right';
-a.innerHTML = '<i class="fas fa-times"></i>';
-li.appendChild(a);
+// a.className = 'delete-item float-right';
+// a.innerHTML = '<i class="fas fa-times"></i>';
+// li.appendChild(a);
 
-document.querySelector('#task-list').appendChild(li);
+// document.querySelector('#task-list').appendChild(li);
 
 
-console.log(li);
+// console.log(li);
