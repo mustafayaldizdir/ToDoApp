@@ -33,7 +33,7 @@
 //Multiple selector
 
 //classname
-let val;
+// let val;
 // val = document.getElementsByClassName('list-group-item');
 
 // // val = document.getElementsByClassName('list-group-item')[2];
