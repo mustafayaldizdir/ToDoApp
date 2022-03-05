@@ -1,15 +1,15 @@
 //LOCAL STORAGE 
-let val;
+// let val;
 
 //set item
-const firstName = localStorage.setItem('firstName','Sadık');
-const lastName = localStorage.setItem('lastName','Turan');
+// const firstName = localStorage.setItem('firstName','Sadık');
+// const lastName = localStorage.setItem('lastName','Turan');
 
-let hobies = ['sinema','okumak','bitkiler'];
+// let hobies = ['sinema','okumak','bitkiler'];
 
 //get item
-val = localStorage.getItem('firstName');
-val = localStorage.getItem('lastName');
+// val = localStorage.getItem('firstName');
+// val = localStorage.getItem('lastName');
 
 //removeItem
 // localStorage.removeItem('firstName');
@@ -20,14 +20,14 @@ val = localStorage.getItem('lastName');
 // localStorage.clear();
 
 //set array
-localStorage.setItem('hobies',JSON.stringify(hobies));
-val = JSON.parse(localStorage.getItem('hobies'));
+// localStorage.setItem('hobies',JSON.stringify(hobies));
+// val = JSON.parse(localStorage.getItem('hobies'));
 
 
-console.log(val);
+// console.log(val);
 
 
-console.log(localStorage);
+// console.log(localStorage);
 
 //SESSION STORAGE
 
